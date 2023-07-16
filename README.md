@@ -1,5 +1,6 @@
 # Human
 sss皮肤、眼球、头发的渲染
+
 一、皮肤渲染
  实现次表面散射
 
@@ -226,3 +227,6 @@ https://zhuanlan.zhihu.com/p/397037573
 https://zhuanlan.zhihu.com/p/330259306
 论文：
 https://www.cs.drexel.edu/~david/Classes/CS586/Papers/p271-kajiya.pdf
+
+
+使用的模型比较粗糙最后效果不是很好..
