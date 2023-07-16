@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Skybox
+  m_Shader: {fileID: 4800000, guid: a1586080406f849478c64c0b8efda41f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cloud:
+        m_Texture: {fileID: 2800000, guid: b6fc3214d11f9294aa2d6f42f110600d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudNoise:
+        m_Texture: {fileID: 2800000, guid: c5b8b8aff88501e4183ef4b3d89b3bc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: fcf4aaa87c4b66d41b0c5e8813c7e0b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GalaxyNoiseTex:
+        m_Texture: {fileID: 2800000, guid: fcf4aaa87c4b66d41b0c5e8813c7e0b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GalaxyTex:
+        m_Texture: {fileID: 2800000, guid: e8864454640265d4a9018aa5b01e67d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fcf4aaa87c4b66d41b0c5e8813c7e0b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarNoise:
+        m_Texture: {fileID: 2800000, guid: fcf4aaa87c4b66d41b0c5e8813c7e0b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stars:
+        m_Texture: {fileID: 2800000, guid: e3710fd880074db48b55e022f0814e5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudCutoff: 1.84
+    - _CloudNoiseScale: 0.33
+    - _CloudSpeed: 0.36
+    - _DensityScaleHeight: 0.32
+    - _DistortScale: 2.06
+    - _DistortionSpeed: 0.28
+    - _Exponent1: -0.8
+    - _Exponent2: -0.84
+    - _Fuzziness: 2.89
+    - _FuzzinessSec: 1.61
+    - _HorizonHeight: 0.15
+    - _HorizonIntensity: 7.39
+    - _MoonOffset: -0.01
+    - _MoonRadius: 0.11
+    - _PlanetRadius: 0.5
+    - _StarsCutoff: 0.9
+    - _StarsSpeed: 0.01
+    - _SunInfScale: 0.28
+    - _SunRadius: 0.12
+    m_Colors:
+    - _CloudDay1: {r: 1, g: 0.8694822, b: 0.5613208, a: 1}
+    - _CloudDay2: {r: 1, g: 0.8779777, b: 0.504717, a: 1}
+    - _CloudNight1: {r: 0.110537566, g: 0.18483025, b: 0.33962256, a: 1}
+    - _CloudNight2: {r: 0, g: 0, b: 0, a: 1}
+    - _DayBottomColor: {r: 0.5166429, g: 0.7174379, b: 0.8490566, a: 1}
+    - _DayTopColor: {r: 0.41037738, g: 0.9290269, b: 1, a: 1}
+    - _GalaxyColor: {r: 0.02202741, g: 0.1479551, b: 0.3113208, a: 1}
+    - _GalaxyColor1: {r: 0, g: 0.1603774, b: 0.02672958, a: 1}
+    - _HorizonColorDay: {r: 1.74902, g: 2, b: 1.482353, a: 1}
+    - _HorizonColorNight: {r: 0.5, g: 0.2193396, b: 0.2193396, a: 1}
+    - _MoonColor: {r: 4.237095, g: 4.015257, b: 2.772968, a: 1}
+    - _NightBottomColor: {r: 0.41506398, g: 0.40922037, b: 0.7169812, a: 1}
+    - _NightTopColor: {r: 0.07591567, g: 0, b: 0.509434, a: 1}
+    - _SunColor: {r: 1.735644, g: 1.2705879, b: 0.99049836, a: 1}
+    - _SunInfColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
